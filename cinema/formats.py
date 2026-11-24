@@ -67,6 +67,7 @@ SCHEMAS = {
     "slots": dict(REV, **SPAN, cycle=code, site=code, crew=code, kit=code,
                   seats=number(1, 500), turnaround=number(0, 14400)),
     "bookings": dict(REV, slot=code, household=code),
+    "road-windows": dict(REV, **SPAN, origin=code, destination=code, seconds=number(1, 14400)),
 }
 JSON_FEEDS = {"player", "sessions"}
 

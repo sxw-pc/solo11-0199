@@ -1,0 +1,4 @@
+id,rev,state,start,end,origin,destination,seconds
+west-lane,1,active,2026-11-20T18:31:00+08:00,2026-11-20T18:36:00+08:00,hub,ford,120
+ford-lane,1,active,2026-11-20T18:34:00+08:00,2026-11-20T18:40:00+08:00,ford,ridge-hall,300
+old-lane,1,active,2026-11-20T18:30:00+08:00,2026-11-20T18:45:00+08:00,hub,ridge-hall,660

@@ -6,7 +6,7 @@ from pathlib import Path
 import sqlite3
 import sys
 
-from . import reconstruction, reservations, settlement
+from . import reconstruction, reservations, roads, settlement
 from .db import connect, initialize, require_initialized, transaction
 from .demo import demo
 from .formats import SCHEMAS, code, instant
@@ -47,6 +47,10 @@ def parser():
     plan.add_argument("--until", dest="not_after", type=timestamp, help="latest slot end, default cycle end")
     for command in ("commit-plan", "cancel-plan", "replay-plan", "replay-run", "replay-settlement"):
         commands.add_parser(command).add_argument("id", type=int)
+    trip = commands.add_parser("trip-check", help="rebuild a road itinerary between two screening bookings")
+    trip.add_argument("from_slot")
+    trip.add_argument("to_slot")
+    trip.add_argument("--cutoff", type=int, help="last visible receipt number")
     return cli
 
 
@@ -60,6 +64,8 @@ def dispatch(args, db):
         return reconstruction.record_run(db, code(args.session), args.cutoff)
     if command == "replay-run":
         return reconstruction.replay_run(db, args.id)
+    if command == "trip-check":
+        return roads.report(db, code(args.from_slot), code(args.to_slot), args.cutoff)
     if command == "coverage":
         return settlement.recompute(db, code(args.cycle), args.cutoff)
     if command == "settle":
