@@ -1,0 +1,9 @@
+id,rev,state,start,end,session,channel,observer,household,count
+n-r1,1,active,2026-11-10T18:00:00+08:00,2026-11-10T18:30:00+08:00,s-ridge,sign_in,keeper1,h-r1,1
+n-r3-short,1,active,2026-11-10T18:21:00+08:00,2026-11-10T18:30:00+08:00,s-ridge,field_check,social1,h-r3,1
+n-ridge-est,1,active,2026-11-10T18:00:00+08:00,2026-11-10T18:30:00+08:00,s-ridge,estimate,keeper1,,38
+n-r2,1,active,2026-11-11T18:00:00+08:00,2026-11-11T18:30:00+08:00,s-hub,field_check,social1,h-r2,1
+n-r2-extra,1,active,2026-11-11T18:03:00+08:00,2026-11-11T18:22:00+08:00,s-hub,sign_in,keeper2,h-r2,1
+n-p1,1,active,2026-11-11T18:04:00+08:00,2026-11-11T18:29:00+08:00,s-hub,sign_in,keeper2,h-p1,1
+n-m1,1,active,2026-11-11T18:00:00+08:00,2026-11-11T18:30:00+08:00,s-hub,sign_in,keeper2,h-m1,1
+n-r2-repeat,1,active,2026-11-12T18:00:00+08:00,2026-11-12T18:30:00+08:00,s-repeat,field_check,social1,h-r2,1

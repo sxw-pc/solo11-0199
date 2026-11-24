@@ -1,0 +1,4 @@
+id,rev,state,start,end,site,village
+ridge-ridge,1,active,2026-11-01T00:00:00+08:00,2026-12-01T00:00:00+08:00,ridge-hall,ridge
+hub-ridge,1,active,2026-11-01T00:00:00+08:00,2026-12-01T00:00:00+08:00,hub,ridge
+hub-plain,1,active,2026-11-01T00:00:00+08:00,2026-12-01T00:00:00+08:00,hub,plain

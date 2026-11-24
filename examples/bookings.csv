@@ -1,0 +1,8 @@
+id,rev,state,slot,household
+b1,1,active,a-plain,h-p2
+b2,1,active,a-plain,h-p3
+b3,1,active,b-ridge,h-r1
+b4,1,active,b-ridge,h-r3
+b5,1,active,c-ridge-later,h-r3
+b6,1,active,d-overbooked,h-r1
+b7,1,active,d-overbooked,h-r3

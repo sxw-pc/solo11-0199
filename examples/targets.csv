@@ -1,0 +1,4 @@
+id,rev,state,cycle,village,goal,priority
+ridge,1,active,nov26,ridge,2,remote
+plain,1,active,nov26,plain,2,standard
+moor,1,active,nov26,moor,1,remote

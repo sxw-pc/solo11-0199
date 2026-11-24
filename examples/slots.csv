@@ -1,0 +1,5 @@
+id,rev,state,start,end,cycle,site,crew,kit,seats,turnaround
+a-plain,1,active,2026-11-20T18:00:00+08:00,2026-11-20T18:30:00+08:00,nov26,hub,crew1,kit1,2,1200
+b-ridge,1,active,2026-11-20T18:00:00+08:00,2026-11-20T18:30:00+08:00,nov26,ridge-hall,crew1,kit1,2,1200
+c-ridge-later,1,active,2026-11-20T18:40:00+08:00,2026-11-20T19:10:00+08:00,nov26,ridge-hall,crew1,kit1,1,1200
+d-overbooked,1,active,2026-11-21T18:00:00+08:00,2026-11-21T18:30:00+08:00,nov26,ridge-hall,crew2,kit2,1,1200

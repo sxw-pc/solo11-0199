@@ -1,0 +1,3 @@
+{"id":"p-ridge","rev":1,"state":"active","start":"2026-11-10T18:00:00+08:00","end":"2026-11-10T18:30:00+08:00","session":"s-ridge","device":"unit1","film":"river","offset":0}
+{"id":"p-hub","rev":1,"state":"active","start":"2026-11-11T18:00:00+08:00","end":"2026-11-11T18:30:00+08:00","session":"s-hub","device":"unit1","film":"river","offset":0}
+{"id":"p-repeat","rev":1,"state":"active","start":"2026-11-12T18:00:00+08:00","end":"2026-11-12T18:30:00+08:00","session":"s-repeat","device":"unit1","film":"river","offset":0}
